@@ -1,3 +1,4 @@
 .env
-temp/*
+temp/*.csv
+temp/*.png
 bot_errors.log
