@@ -49,7 +49,7 @@ class BotService
       end
    
     when "/start"
-      @bot.api.send_message(chat_id: @message.chat.id, text: 'Bem-vindo! digite /start seu_prompt para gerar um avatar')
+      @bot.api.send_message(chat_id: @message.chat.id, text: 'Bem-vindo! digite /avatar para gerar um novo avatar, ou se preferir clique no botão no canto inferior esquerdo!')
 
     else
       @bot.api.send_message(chat_id: @message.chat.id, text: 'Por favor, escolha um modelo válido ou digite /avatar para começar')
